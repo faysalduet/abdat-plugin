@@ -1,0 +1,17 @@
+{
+    "name": "abdat/abdat-plugin",
+    "description": "Wordpess plugin",
+    "type": "project",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "abdat",
+            "email": "faysal@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Inc\\": "./inc"}
+    }
+}
