@@ -1,6 +1,6 @@
 <?php
 /**
- * @package  AlecadddPlugin
+ * @package  AbdatPlugin
  */
 namespace Inc\Api\Callbacks;
 

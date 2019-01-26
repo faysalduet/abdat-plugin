@@ -1,6 +1,6 @@
 <?php 
 /**
- * @package  AbadtPlugin
+ * @package  AbdatPlugin
  */
 namespace Inc\Api\Callbacks;
 
@@ -20,6 +20,7 @@ class AdminCallbacks extends BaseController
 
 	public function adminTaxonomy()
 	{
+		
 		return require_once( "$this->plugin_path/templates/taxonomy.php" );
 	}
 

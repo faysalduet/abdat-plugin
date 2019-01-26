@@ -1,6 +1,6 @@
 <?php 
 /**
- * @package  AlecadddPlugin
+ * @package  AbdatPlugin
  */
 namespace Inc\Api\Callbacks;
 
@@ -9,12 +9,13 @@ class CptCallbacks
 
 	public function cptSectionManager()
 	{
+		
 		echo 'Create as many Custom Post Types as you want.';
 	}
 
 	public function cptSanitize( $input )
 	{
-		$output = get_option('alecaddd_plugin_cpt');
+		$output = get_option('abdat_plugin_cpt');
 
 		if ( isset($_POST["remove"]) ) {
 			unset($output[$_POST["remove"]]);
@@ -41,6 +42,7 @@ class CptCallbacks
 
 	public function textField( $args )
 	{
+	
 		$name = $args['label_for'];
 		$option_name = $args['option_name'];
 		$value = '';
